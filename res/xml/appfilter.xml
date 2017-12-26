@@ -4,11 +4,11 @@
     <!-- Icons are themed by specifiy their activity component name and the drawable to replace it with -->
 
     <!-- Replace phone icon on Nexus/AOSP devices -->
-    <item component="ComponentInfo{com.android.contacts/.activities.DialtactsActivity}" drawable="ic_phone_red" />
+    <item component="ComponentInfo{com.android.contacts/.activities.DialtactsActivity}" drawable="ic_phone" />
     <!-- Phone on On HTC 4.0 devices -->
-    <item component="ComponentInfo{com.android.htccontacts/.DialerTabActivity}" drawable="ic_phone_red" />
+    <item component="ComponentInfo{com.android.htccontacts/.DialerTabActivity}" drawable="ic_phone" />
     <!-- Phone on Sony devices -->
-    <item component="ComponentInfo{com.sonyericsson.android.socialphonebook/.DialerEntryActivity}" drawable="ic_phone_red" />
+    <item component="ComponentInfo{com.sonyericsson.android.socialphonebook/.DialerEntryActivity}" drawable="ic_phone" />
 
     <!-- Alternatively,
          Nova Launcher maintains an internal database of common system icons to theme.
@@ -32,12 +32,12 @@
     -->
 
     <!-- Replace system's SMS icon -->
-    <item component=":SMS" drawable="ic_sms_red" />
+    <item component=":SMS" drawable="ic_sms" />
 
     <item component=":BROWSER" drawable="ic_browser_red" />
 
     <!-- Give Chrome the browser icon, but in green -->
-    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="ic_browser_green" />
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="ic_chrome" />
     <!-- And Chrome Beta a jellybean icon -->
     <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="ic_jellybean_green" />
 
